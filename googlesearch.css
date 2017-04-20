@@ -54,7 +54,7 @@ body {
   padding-top: 28px;
   text-align: center;
 }
-.tools a {
+.tools a, .results p {
   text-decoration: none;
   color: #777;
   font-size: 13px;
@@ -107,6 +107,33 @@ body {
   height:43px;
   width:1200px;
   margin-left:150px;
-  border: 1px dashed orange;
+}
+.container {
+  height:1387px;
+  width:632px;
+  margin-left: 150px;
 
+}
+.link {
+  height:93px;
+  width:600px;
+  margin-bottom: 26px;
+  line-height: 0;
+}
+.link a {
+  text-decoration: none;
+  color: #1a0dab;
+  font-size:18px;
+  font-weight: normal;
+}
+.link h4 {
+  font-size:14px;
+  color: #006621;
+  font-weight: normal;
+}
+.link p {
+  font-size: small;
+}
+#image_link {
+  margin-bottom:70px;
 }
