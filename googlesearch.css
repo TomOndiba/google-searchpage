@@ -1,5 +1,6 @@
 body {
   display:block;
+  font-family: Arial, sans-serif;
 }
 .header {
   border-bottom: 1px solid #e4e4e4;
@@ -17,22 +18,53 @@ body {
   width:640px;
   height:44px;
   border: 1px solid #e4e4e4;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 3px 0 #eee;
+}
+#search_bar:hover {
+  box-shadow: 0 5px 10px 0 red;
+}
+#search_bar input {
+  background-color: #fff;
+  border:none;
+  height:30px;
+  width:500px;
+  font-size:16px;
+  line-height: 27px;
+  outline:none;
+  margin-top: 6px;
+  margin-left: 6px;
+}
+#search_bar img {
+  height: 23px;
+  width: 17px;
+  float:right;
+  margin: 10.5px 10.5px;
+  cursor: pointer;
 }
 .tools {
   height:56px;
 }
 #google {
-  width:120px;
+  width:130px;
+  margin-right: 20px;
 }
-#apps {
+#apps, #bell {
   width:20px;
+  margin-right:20px;
 }
-#bell {
-  width:20px;
+
+#ben {
+  width:35px;
+  height:35px;
+  border-radius: 100%;
+  background: url(ben.png);
+  background-size: contain;
 }
 #right_apps {
   height:44px;
-  width:100px;
+  width:150px;
   float:right;
 }
 #app_logo {
