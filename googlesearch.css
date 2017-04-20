@@ -1,0 +1,47 @@
+body {
+  display:block;
+}
+.header {
+  border-bottom: 1px solid #e4e4e4;
+  padding-top: 20px;
+  background-color: #fafafa;
+}
+.search {
+  height:47px;
+
+  display:inline-block;
+  vertical-align: top;
+  width:100%;
+}
+#search_bar {
+  width:640px;
+  height:44px;
+  border: 1px solid #e4e4e4;
+}
+.tools {
+  height:56px;
+}
+#google {
+  width:120px;
+}
+#apps {
+  width:20px;
+}
+#bell {
+  width:20px;
+}
+#right_apps {
+  height:44px;
+  width:100px;
+  float:right;
+}
+#app_logo {
+  margin-top:12px;
+  height:20px;
+  width:20px;
+}
+#bell_logo {
+  margin-top:7px;
+  height:30px;
+  width:30px;
+}

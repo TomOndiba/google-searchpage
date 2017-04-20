@@ -1,0 +1,1 @@
+The purpose of this more advanced html/css project is to reinforce what I have learned and to polish up what I was struggling with last time. As well, I want to see the differences in the style, moving away from the messyness of the google searchpage.
